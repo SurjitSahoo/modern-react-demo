@@ -14,7 +14,10 @@ export default function AllPosts({ setCurrentPostId }: Props) {
       <div className='mb-4'>All Posts</div>
       {posts &&
         posts.map(post => (
-          <div key={post.id} onClick={() => setCurrentPostId(post.id)} className='cursor-pointer'>
+          <div
+            key={post.id}
+            onClick={() => setCurrentPostId(post.id)}
+            className='cursor-pointer hover:bg-gray-200 transition-all duration-100'>
             {post.title}
           </div>
         ))}
