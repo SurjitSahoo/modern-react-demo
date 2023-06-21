@@ -11,13 +11,13 @@ export default function AllPosts({ setCurrentPostId }: Props) {
 
   return (
     <div className='flex-1 ring-1'>
-      <div className='mb-4'>All Posts</div>
+      <div className='mb-4 text-orange-400'>All Posts</div>
       {posts &&
         posts.map(post => (
           <div
             key={post.id}
             onClick={() => setCurrentPostId(post.id)}
-            className='cursor-pointer hover:bg-gray-200 transition-all duration-100'>
+            className='cursor-pointer hover:bg-gray-200 transition-all duration-100 even:bg-orange-50'>
             {post.title}
           </div>
         ))}

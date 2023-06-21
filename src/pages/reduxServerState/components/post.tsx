@@ -8,10 +8,10 @@ export default function Post({ postId }: Props) {
 
   return (
     <div className='flex-1 ring-1'>
-      <div className='mb-4'>Current Post</div>
+      <div className='mb-4 text-green-600'>Current Post</div>
       {!isFetching && !isError && post && (
         <div className='px-2'>
-          <div>{post.title}</div>
+          <div className='bg-green-50 -mx-1'>{post.title}</div>
           <div>{post.content}</div>
         </div>
       )}

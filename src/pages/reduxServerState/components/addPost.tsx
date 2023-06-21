@@ -7,8 +7,8 @@ export default function AddPost() {
   const [createPost, result] = useCreatePostMutation();
 
   return (
-    <div className='flex-1 ring-1 px-2'>
-      <div className='mb-4'>Add Post</div>
+    <div className='flex-1 ring-1 ml-[1px]'>
+      <div className='mb-4 text-sky-600'>Add Post</div>
       <Formik
         {...{
           initialValues: { title: '', content: '' },
@@ -21,7 +21,7 @@ export default function AddPost() {
           },
         }}>
         {({ errors, touched, isValid, dirty }) => (
-          <Form>
+          <Form className='mx-4'>
             <Field
               name='title'
               type='text'
