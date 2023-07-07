@@ -41,6 +41,6 @@ pnpm start
 
 #### TODO
 
-[-] Organize client & server states in redux and abstract away client states  
+[x] Organize client & server states in redux and abstract away client states  
 [-] Add husky  
 [-] Add Docker configuration

@@ -1,16 +1,15 @@
 import { RootRoutes } from 'routes';
-import { Provider } from 'react-redux';
-import { store } from 'globalState';
 import Header from 'components/header';
+import { GlobalStateProvider } from 'globalState';
 
 function App() {
   return (
-    <Provider store={store}>
+    <GlobalStateProvider>
       <div className='h-screen text-center text-gray-700'>
         <Header />
         <RootRoutes />
       </div>
-    </Provider>
+    </GlobalStateProvider>
   );
 }
 

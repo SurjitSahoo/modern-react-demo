@@ -1,12 +1,10 @@
-import { useActionDispatch, useStateSelector } from 'globalState';
-import { countActions } from 'globalState/count';
+import { useCount } from 'globalState/client';
 
 export default function SiblingTwo() {
-  const { count } = useStateSelector(state => state.count);
-  const dispatch = useActionDispatch();
+  const { count, decrementBy } = useCount();
 
   function decrementBy5() {
-    dispatch(countActions.decrementBy(5));
+    decrementBy(5);
   }
 
   return (

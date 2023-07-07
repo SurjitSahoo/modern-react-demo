@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import countReducer from '../count';
+import countReducer from '../client/count/count';
 
-import postApi from '../post';
+import postApi from '../server/post';
 
 export const store = configureStore({
   reducer: {

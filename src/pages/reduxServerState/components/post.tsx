@@ -1,4 +1,4 @@
-import { useGetPostQuery } from 'globalState/post';
+import { useGetPostQuery } from 'globalState/server';
 
 interface Props {
   postId: string;

@@ -1,7 +1,7 @@
 import { v4 as uuid4 } from 'uuid';
 import { Form, Formik, Field } from 'formik';
 import * as yup from 'yup';
-import { useCreatePostMutation } from 'globalState/post';
+import { useCreatePostMutation } from 'globalState/server';
 
 export default function AddPost() {
   const [createPost, result] = useCreatePostMutation();
