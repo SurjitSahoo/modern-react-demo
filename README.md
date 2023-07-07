@@ -24,10 +24,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/SurjitSahoo/react-redux-toolkit-rtk-query-tailwind-demo.git
+git clone git@github.com:SurjitSahoo/modern-react-demo.git
 
 # Go to project directory
-cd react-redux-toolkit-rtk-query-tailwind-demo
+cd modern-react-demo
 
 # install dependencies
 pnpm install
