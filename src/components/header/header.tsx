@@ -6,7 +6,8 @@ export default function Header() {
     <header className='bg-gradient-to-r from-teal-800 via-amber-800 to-slate-800 bg-animate text-white h-14 flex items-center justify-between px-10'>
       <div className='flex flex-row items-center gap-2'>
         <SiReact className='text-teal-300' strokeWidth={1} size={32} /> <span>+</span>
-        <SiRedux className='text-teal-300' strokeWidth={1} size={32} /><span>+</span>
+        <SiRedux className='text-teal-300' strokeWidth={1} size={32} />
+        <span>+</span>
         <SiTailwindcss className='text-teal-300' strokeWidth={1} size={32} />
         <span>Demo App</span>
       </div>
