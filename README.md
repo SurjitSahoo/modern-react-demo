@@ -12,3 +12,35 @@
   <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" alt="Prettier" />
   <img src="https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=sonarlint&logoColor=white" alt="Sonar Lint" />
 </div>
+
+## Get Started
+
+### Pre-requisites
+
+- [Node.js](https://nodejs.org/en/download)
+- pnpm: Alternative for `npm`, install with `npm i -g pnpm`
+
+### Download & run the project
+
+```bash
+# Clone the repository
+git clone https://github.com/SurjitSahoo/react-redux-toolkit-rtk-query-tailwind-demo.git
+
+# Go to project directory
+cd react-redux-toolkit-rtk-query-tailwind-demo
+
+# install dependencies
+pnpm install
+
+# start API server
+pnpm api
+
+# start react app
+pnpm start
+```
+
+#### TODO
+
+[-] Organize client & server states in redux and abstract away client states  
+[-] Add husky  
+[-] Add Docker configuration

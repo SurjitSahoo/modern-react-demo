@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "todo-tree.tree.scanMode": "workspace only",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "files.autoSave": "onFocusChange"
+}
