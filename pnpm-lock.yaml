@@ -107,8 +107,8 @@ devDependencies:
     specifier: ^4.6.0
     version: 4.6.0(eslint@8.26.0)
   eslint-plugin-spellcheck:
-    specifier: ^0.0.19
-    version: 0.0.19(eslint@8.26.0)
+    specifier: ^0.0.20
+    version: 0.0.20(eslint@8.26.0)
   husky:
     specifier: ^8.0.1
     version: 8.0.1
@@ -2709,8 +2709,8 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /eslint-plugin-spellcheck@0.0.19(eslint@8.26.0):
-    resolution: {integrity: sha512-Vau+oCLT3IGx+inJV5rkuKlIwgka9L2is1SkztviIHN3apNnT2OrZoGy9Jt3gbcjjkfkIFMFSZjB+ijHCimbNA==}
+  /eslint-plugin-spellcheck@0.0.20(eslint@8.26.0):
+    resolution: {integrity: sha512-GJa6vgzWAYqe0elKADAsiBRrhvqBnKyt7tpFSqlCZJsK2W9+K80oMyHhKolA7vJ13H5RCGs5/KCN+mKUyKoAiA==}
     peerDependencies:
       eslint: '>=0.8.0'
     dependencies:
