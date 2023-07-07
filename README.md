@@ -21,7 +21,7 @@
 ### Pre-requisites
 
 - [Node.js](https://nodejs.org/en/download)
-- pnpm: Alternative for `npm`, install with `npm i -g pnpm`
+- [pnpm](https://pnpm.io): Alternative for `npm`, install with `npm i -g pnpm`
 
 ### Download & run the project
 
