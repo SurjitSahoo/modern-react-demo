@@ -1,7 +1,4 @@
-<div>
-  <h1 style="text-align: center;">Modern React app demo with all the modern goodies and standards</h1>
-  <p style="text-align: center;">Vite + React + TypeScript + Redux + RTK-Query + Tailwindcss + Vitest + React-Testing-Library + Eslint + Prettier</p>
-</div>
+# Modern React app demo with all the modern goodies and standards
 
 <div>
   <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite.js" />
