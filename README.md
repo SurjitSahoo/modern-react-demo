@@ -1,20 +1,18 @@
 # Modern React app demo with all the modern goodies and standards
 
-<div>
-  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite.js" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react.js" />
-  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
-  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux Toolkit" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwindcss" />
-  <img src="https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white" alt="React Testing Library" />
-  <img src="https://img.shields.io/badge/Vitest-fcc72b?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" alt="eslint" />
-  <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" alt="Prettier" />
-  <img src="https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=sonarlint&logoColor=white" alt="Sonar Lint" />
-  <img src="https://img.shields.io/badge/docker-2496ed?style=for-the-badge&logo=Docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/nginx-27963a?style=for-the-badge&logo=NGINX&logoColor=white" alt="nginx" />
-</div>
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white 'Vite.js')
+![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB 'React.js')
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white 'React Router')
+![Redux Toolkit](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white 'Redux Toolkit')
+![Tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white 'Tailwindcss')
+![React Testing Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white 'React Testing Library')
+![Vitest](https://img.shields.io/badge/Vitest-fcc72b?style=for-the-badge&logo=vitest&logoColor=white 'Vitest')
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white 'TypeScript')
+![eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white 'eslint')
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E 'Prettier')
+![Sonar Lint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=sonarlint&logoColor=white 'Sonar Lint')
+![Docker](https://img.shields.io/badge/docker-2496ed?style=for-the-badge&logo=Docker&logoColor=white 'Docker')
+![nginx](https://img.shields.io/badge/nginx-27963a?style=for-the-badge&logo=NGINX&logoColor=white 'nginx')
 
 ## Get Started
 
@@ -45,5 +43,5 @@ pnpm start
 #### TODO
 
 [x] Organize client & server states in redux and abstract away client states  
-[-] Add husky  
+[x] Add husky  
 [-] Add Docker configuration
