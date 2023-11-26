@@ -52,7 +52,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-spellcheck": "^0.0.20",
     "husky": "^8.0.3",
-    "jsdom": "^22.1.0",
+    "jsdom": "^23.0.0",
     "json-server": "^0.17.3",
     "lint-staged": "^14.0.0",
     "postcss": "^8.4.25",
