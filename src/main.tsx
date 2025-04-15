@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import App from './app';
+// import App from './app';
+import Bill from './bill';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <BrowserRouter>
     <React.StrictMode>
-      <App />
+      {/* <App /> */}
+      <Bill />
     </React.StrictMode>
   </BrowserRouter>,
 );

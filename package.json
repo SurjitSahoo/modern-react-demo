@@ -4,15 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "prebuild": "rimraf dist",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "vitest",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix --max-warnings=0 --ext .ts,.tsx .",
-    "api": "json-server db.json --port 3002 --delay 1000",
-    "prepare": "husky install"
+    "start": "bunx --bun vite",
+    "prebuild": "bunx --bun rimraf dist",
+    "build": "bunx --bun tsc && vite build",
+    "preview": "bunx --bun vite preview",
+    "test": "bunx --bun vitest",
+    "lint": "bunx --bun eslint .",
+    "lint:fix": "bunx --bun eslint --fix --max-warnings=0 --ext .ts,.tsx .",
+    "api": "bunx --bun json-server db.json --port 3002 --delay 1000",
+    "prepare": "bunx --bun husky install"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",

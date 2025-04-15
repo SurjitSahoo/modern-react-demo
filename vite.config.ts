@@ -6,7 +6,12 @@ import viteTSConfigPaths from 'vite-tsconfig-paths';
 const port = 3000;
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), viteTSConfigPaths(), svgr()],
+  plugins: [react(), viteTSConfigPaths(), svgr(
+    {
+      svgrOptions: { exportType: 'default', ref: true, svgo: false, titleProp: true },
+      include: '**/*.svg',
+  }
+  )],
   server: {
     port: port,
     strictPort: true,
